@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>mycart</title>
+    <style>
+        .box{
+            width: 80%;
+            height: 500px;
+            border: 1px solid red;
+            margin: auto;
+        }
+        .navbar{
+            width: 90%;
+            height: 70px;
+            margin: auto;
+            
+            display: flex;
+            justify-content: space-around;
+            background-color: blue;
+            color: white;
+        }
+        .navbar>div:nth-child(1){
+            font-size: 50px;
+             color: yellow;
+             margin-left: -40px;
+        }
+        .navbar>div{
+            /* margin-top: 20px; */
+        }
+       .navbar a{
+           margin:20px;
+            font-size: 30px;
+            text-decoration: none;
+            color: white;
+    
+            
+        }
+        a:hover{
+            color: red;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <div >localKart</div>
+        <div> <a href="mens.html">Mens Fashion</a> </div>
+        <div><a href="womens.html"> Women Fashion</a></div>
+        <div><a href="mycart.html"> my cart</a></div>
+    </div>
+    <div class="box"></div>
+</body>
+</html>
